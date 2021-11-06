@@ -1,0 +1,20 @@
+.btn-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .btn:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .btn-outline-primary {
+    background-color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .btn-outline-primary:disabled {
+    opacity: 0.4;
+    background-color: #ffffff;
+  }
